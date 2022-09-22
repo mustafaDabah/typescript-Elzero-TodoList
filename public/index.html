@@ -4,16 +4,17 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Web site created using create-snowpack-app" />
-    <title>Snowpack App</title>
+    <title>Analog Clock</title>
+    <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
-    <ul id="list"></ul>
-
-    <form  id="new-task-form">
-      <input type="text" id="new-task-title">
-      <button id="button">Add</button>
-    </form>
-
+   
+    <div class="clock">
+      <div id="seconds-hand"></div>
+      <div id="minutes-hand"></div>
+      <div id="hours-hand"></div>
+      <div id="center"></div>
+    </div>
 
     <script type="module" src="/dist/index.js"></script>
    
